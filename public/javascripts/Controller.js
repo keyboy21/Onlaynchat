@@ -27,7 +27,7 @@ app.controller("indexController", ["$scope", 'indexFactory', "configFactory", ($
     async function initSocket(username) {
         const connectionOptions = {
             reconnectionAttemps: 3,
-            reconnectionDelay: 600,
+            // reconnectionDelay: 600,
         }
 
         const socketUrl = await configFactory.getConfig()
