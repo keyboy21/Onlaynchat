@@ -2,9 +2,9 @@ var express = require('express');
 var router = express.Router();
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Live ball chat' });
-});
+// router.get('/', function(req, res, next) {
+//   res.render('index', { title: 'Live ball chat' });
+// });
 
 
 router.get('/getInv', function(req, res, next) {

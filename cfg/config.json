@@ -3,6 +3,6 @@
         "socketUrl":"http://localhost:3000"
     },
     "production":{
-        "socketUrl":"https://sleepy-hollows-43018.herokuapp.com/"
+        "socketUrl":"https://chtonlayn.herokuapp.com/"
     }
 }
